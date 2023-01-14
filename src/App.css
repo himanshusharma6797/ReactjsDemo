@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/fsalbert');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'FSAlbert', sans-serif;
+}
+
+.App {
+  margin: 0 10rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    margin: 0;
+  }
+}

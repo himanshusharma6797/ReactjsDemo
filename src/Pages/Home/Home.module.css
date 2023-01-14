@@ -1,0 +1,325 @@
+.slideMain {
+    padding-left: 5.5%;
+    height: 35rem;
+    background-image: linear-gradient(to right, #EBEBEB, #F8F8F8);
+}
+
+.slideAbout {
+    width: 41rem;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+.slideMainHeading {
+    font-size: 2.8rem;
+    letter-spacing: 0.8px;
+    color: #12406F;
+}
+
+.slideMainPara {
+    letter-spacing: 0.35px;
+    color: #525252;
+    text-align: justify;
+}
+
+.slideMainBtn {
+    background-color: #12406F;
+    border: 0px;
+    width: 15rem;
+    height: 5rem;
+    color: white;
+    box-shadow: 0px 1px 8px #00000029;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.slideImg {
+    width: 62rem;
+}
+
+
+
+
+/* second section */
+
+.trupleBlocks {
+    color: white;
+    position: relative;
+    top: -4rem;
+}
+
+.lightBlueLevel {
+    background-color: #54A0D4;
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 5.5%;
+}
+
+.darkBlueLevel {
+    background-color: #0A72B9;
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 5.5%;
+}
+
+.darkestBlueLevel {
+    background-color: #12406F;
+    height: 17rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 5.5%;
+}
+
+.fourWrapBlockHeading {
+    display: flex;
+    flex-flow: column;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.fourWrapBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.fourWrapBlock button {
+    background: transparent;
+    font-size: 1.6rem;
+    text-align: left;
+    border: 0px;
+    width: 40%;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* section 3 */
+
+.examSection {
+    padding-left: 5.5%;
+    padding-right: 7%;
+    padding: 4rem 7% 4rem 5.5%;
+    align-items: flex-start;
+}
+
+.upcomingExam {
+    border-right: 1px solid rgb(172, 172, 172);
+    width: 30rem;
+    gap: 1rem;
+    padding-right: 4rem;
+    margin-right: 1rem;
+}
+
+.upcomingExam h2 {
+    color: #12406F;
+    font-size: 2.5rem;
+}
+
+.upcomingExam p {
+    color: #525252;
+}
+
+.levelExam {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.levelExamHeading {
+    color: #12406F;
+}
+
+.levelExamdata {
+    color: #525252;
+}
+
+
+
+/* section 4 */
+
+.numberTickerSection {
+    background-color: #F6F6F6;
+    justify-content: space-evenly;
+    min-height: 40rem;
+}
+
+.numberTickerBlock {
+    width: 20%;
+    color: #12406F;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.numberFirstHeading {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.number {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.numberSecondHeading {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.numberPara {}
+
+.slider {
+    padding-left: 4%;
+    padding-bottom: 6rem;
+}
+
+
+
+/* section 5 */
+
+.customCarousel {
+    background-image: url('./../../Assets/Svgs/GroupBtn.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 26.4rem;
+    align-items: center;
+    margin: auto auto;
+    padding: 4% 0 0 5%;
+    color: white;
+}
+
+.customCarouselBlock {
+    height: 8rem;
+    display: flex !important;
+    gap: 2rem !important;
+    flex-flow: column;
+}
+
+.customCarouselBlock h3 {
+    color: #54A0D4;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.customCarouselBlock p {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 100;
+    width: 16rem;
+}
+
+@media screen and (max-width: 920px) {
+    .slideMain {
+        flex-flow: column;
+        padding-left: 0;
+        min-height: 65rem;
+    }
+
+    .slideAbout {
+        width: 80%;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 2rem;
+        min-height: 20rem;
+    }
+
+    .slideImg {
+        padding-top: 1rem;
+        width: 100%;
+    }
+
+    .trupleBlocks {
+        position: static;
+        flex-flow: column;
+    }
+
+    .lightBlueLevel {
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+    
+    .darkBlueLevel {
+        padding-left: 18%;
+    }
+    
+    .darkestBlueLevel {
+        padding-left: 18%;
+    }
+
+
+    .examSection {
+        padding: 2rem;
+        flex-flow: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 50rem;
+    }
+
+    .upcomingExam {
+        border-right: 0px solid rgb(172, 172, 172);
+        border-bottom: 1px solid rgb(172, 172, 172);
+        width: 80%;
+        gap: 1rem;
+        padding-right: 0;
+        padding-bottom: 3rem;
+        margin-right: 1rem;
+    }
+
+    .upcomingExam h2 {
+        text-align: center;
+    }
+    
+    .upcomingExam p {
+        text-align: center;
+    }
+
+    .levelExam {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        gap: 1rem;
+    }
+
+    .numberTickerSection {
+        justify-content: space-evenly;
+        flex-flow: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .numberTickerBlock {
+        width: 80%;
+        color: #12406F;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .customCarousel {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {}

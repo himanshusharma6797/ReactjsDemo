@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="380.479" viewBox="0 0 1920 380.479">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.375" x2="0" y2="0.427" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#12406f"/>
+      <stop offset="1" stop-color="#003164"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_17221" data-name="Group 17221" transform="translate(0 -2058)">
+    <rect id="Rectangle_5241" data-name="Rectangle 5241" width="1920" height="380" transform="translate(0 2058)" fill="url(#linear-gradient)"/>
+    <g id="Group_17218" data-name="Group 17218" transform="translate(1662.208 2058.325)" opacity="0.18">
+      <path id="Path_23449" data-name="Path 23449" d="M261.742,901.744V916.03l-130.387,77.8V901.744Z" transform="translate(-4.099 -901.744)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23450" data-name="Path 23450" d="M220.539,853.177l41.2,24.592v145.282L131.354,945.26V853.177Z" transform="translate(-4.099 -853.177)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23455" data-name="Path 23455" d="M356.885,824.322V937.683L184.719,1040.415V895.122l118.649-70.8Z" transform="translate(-184.719 -824.322)" fill="#f8e1c5" opacity="0.4" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23456" data-name="Path 23456" d="M147.566,868.848l139.383-83.167V930.963L147.566,1014.14Z" transform="translate(-55.273 -736.154)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23457" data-name="Path 23457" d="M244.587,926.342,131.354,858.763l135.224-80.685V926.342Z" transform="translate(-8.936 -636.179)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23458" data-name="Path 23458" d="M368.22,784.872v279.282L131.354,922.813,362.526,784.872Z" transform="translate(-110.577 -784.872)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    </g>
+    <g id="Group_17217" data-name="Group 17217" transform="translate(0 -331.799)" opacity="0.18">
+      <path id="Path_23449-2" data-name="Path 23449" d="M131.354,979.48v-12.06l110.072-65.676V979.48Z" transform="translate(-131.354 1790.799)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23450-2" data-name="Path 23450" d="M166.138,996.584l-34.783-20.761V853.177l110.072,65.67v77.736Z" transform="translate(-131.354 1773.695)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23455-2" data-name="Path 23455" d="M184.719,1006.746v-95.7L330.06,824.322V946.977L229.9,1006.746Z" transform="translate(-112.56 1763.533)" fill="#f8e1c5" opacity="0.4" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23456-2" data-name="Path 23456" d="M265.232,908.335,147.566,978.544V855.9l117.666-70.217Z" transform="translate(-125.645 1749.924)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23457-2" data-name="Path 23457" d="M149.919,778.079l95.59,57.049L131.354,903.241V778.079Z" transform="translate(-131.354 1747.247)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_23458-2" data-name="Path 23458" d="M131.354,1020.64V784.872l199.96,119.319L136.161,1020.64Z" transform="translate(-131.354 1749.639)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+    </g>
+    <g id="Group_17216" data-name="Group 17216" transform="translate(1623.025 4789.444) rotate(180)" opacity="0.3">
+      <g id="Group_17220" data-name="Group 17220" transform="translate(-59.074)">
+        <path id="Path_23459" data-name="Path 23459" d="M653.589,778.079l-187.678,112-187.691-112Z" transform="translate(102.645 1573.246)" fill="#f8e1c5" opacity="0.4" style="mix-blend-mode: soft-light;isolation: isolate"/>
+        <path id="Path_23451" data-name="Path 23451" d="M505.82,778.079,439.152,817.86l-66.661-39.781Z" transform="translate(129.402 1573.246)" fill="#c8d7d6" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

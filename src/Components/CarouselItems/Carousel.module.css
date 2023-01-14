@@ -1,0 +1,50 @@
+/* .imgOuter{
+    height: 27rem;
+} */
+
+.item {
+    background: url('./../../Assets/Svgs/ItemGroup.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    min-height: 24rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+.para {
+    font-size: 1.6rem;
+    width: 94%;
+}
+
+.button {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.button span {
+    background-color: white;
+    color: #12406F;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: .1rem .5rem;
+}
+
+@media screen and (max-width: 920px) {
+    .item {
+    min-height: 20rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+}
+@media screen and (max-width: 1200px) {}

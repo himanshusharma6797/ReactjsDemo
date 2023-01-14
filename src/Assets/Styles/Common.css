@@ -1,0 +1,42 @@
+.all-u-l {
+    list-style: none;
+}
+
+.display-f-row-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+.display-f-column-sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+}
+
+.display-f-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-white {
+    filter: invert(100%);
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.sec-headings {
+    color: #12406F;
+}
+
+.menu-btn{
+    display: none;
+}
+.menu-btn i{
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
