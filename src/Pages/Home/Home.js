@@ -93,7 +93,44 @@ export default function Home() {
 
 
     useEffect(() => {
-        if (windowSize.current[0] < 1400) {
+        let my = () => {
+            if (windowSize.current[0] < 1400) {
+                window.location.reload();
+            }
+            if (windowSize.current[0] < 800) {
+                window.location.reload();
+            }
+        }
+        window.addEventListener("resize",my );
+    })
+
+    useEffect(() => {
+            if (windowSize.current[0] < 1400) {
+                setSettings({
+                    ...settings,
+                    slidesToShow: 2,
+                });
+                setSettings2({
+                    ...settings2,
+                    slidesToShow: 2,    
+                })
+            }
+            if (windowSize.current[0] < 800) {
+                setSettings({
+                    ...settings,
+                    slidesToShow: 1,
+                });
+                setSettings2({
+                    ...settings2,
+                    slidesToShow: 1,
+                })
+            }
+    },[])
+
+    useEffect(()=>{
+        function setEqualHeight() {
+            console.log('chalgo');
+            if (windowSize.current[0] < 1400) {
             setSettings({
                 ...settings,
                 slidesToShow: 2,
@@ -113,6 +150,9 @@ export default function Home() {
                 slidesToShow: 1,
             })
         }
+        }
+        
+        window.addEventListener('resize', setEqualHeight);
     },[])
 
     return (
@@ -174,6 +214,7 @@ export default function Home() {
                         </div>
 
                         <div className={styles.darkBlueLevel}>
+                        <div>Quick Links &gt;</div>
                             <div className={styles.fourWrapBlockHeading}>Lorem Ipsum</div>
                             <div className={styles.fourWrapBlock}>
                                 <button>Lorem Ipsum</button>
